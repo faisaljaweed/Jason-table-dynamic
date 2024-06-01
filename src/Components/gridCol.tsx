@@ -12,7 +12,7 @@ const GridCol = (props: propsType) => {
         <div>
             <table className='border border-black-2'>
                 <thead>
-                    {tables.map((x: any, i: any) => <th className="border border-black p-3" key={i}> {x.label}</th>)}
+                    {tables.map((x: any, i: any) => <th className="border border-black p-3 text-[15px]" key={i}> {x.label}</th>)}
                 </thead>
                 <tbody>
                     {
